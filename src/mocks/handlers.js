@@ -6,15 +6,14 @@ export const handlers = [
   rest.get(`${baseURL}dj-rest-auth/user/`, (req, res, ctx) => {
     return res(
       ctx.json({
-        pk: 2,
-        username: "brian",
-        email: "",
-        first_name: "",
+        pk : 59,
+        username : "tamas",
+        email : "",
+        first_name : "",
         last_name: "",
         profile_id: 2,
-        profile_image:
-          "https://res.cloudinary.com/dfi7tw6ox/image/upload/v1/media/../default_profile_jx7eer",
-      })
+        profile_image: "https://res.cloudinary.com/dfi7tw6ox/image/upload/v1/media/images/logo_azpxqi"
+        })
     );
   }),
   rest.post(`${baseURL}dj-rest-auth/logout/`, (req, res, ctx) => {
